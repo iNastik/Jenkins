@@ -1,0 +1,74 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<matrix-run plugin="matrix-project@1.14">
+  <actions>
+    <hudson.matrix.MatrixConfiguration_-ParentBuildAction>
+      <parentId>FirstJob#43</parentId>
+    </hudson.matrix.MatrixConfiguration_-ParentBuildAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>FirstJob</upstreamProject>
+            <upstreamUrl>job/FirstJob/</upstreamUrl>
+            <upstreamBuild>43</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UserIdCause>
+                <userId>anastasiya</userId>
+              </hudson.model.Cause_-UserIdCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.plugins.git.util.BuildData plugin="git@4.1.1">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.1.1">
+              <sha1>446ae5a4fb9798821be65628da0b587e4e1f04e3</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>43</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/vitalliuss/helloci</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@4.1.1">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>C:\Data\Jenkins\workspace\FirstJob\default</ws>
+    </hudson.plugins.git.GitTagAction>
+    <hudson.scm.SCMRevisionState_-None/>
+  </actions>
+  <queueId>98</queueId>
+  <timestamp>1580238922000</timestamp>
+  <startTime>1580238936931</startTime>
+  <result>FAILURE</result>
+  <duration>10838</duration>
+  <charset>windows-1251</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>C:\Data\Jenkins\workspace\FirstJob\default</workspace>
+  <hudsonVersion>2.217</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@4.1.1">
+    <authorOrCommitter>false</authorOrCommitter>
+    <showEntireCommitSummaryInChanges>true</showEntireCommitSummaryInChanges>
+  </scm>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</matrix-run>

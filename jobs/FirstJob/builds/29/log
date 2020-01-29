@@ -1,0 +1,20 @@
+Запущен по таймеру
+Running as SYSTEM
+Building in workspace C:\Data\Jenkins\workspace\FirstJob
+No credentials specified
+ > C:\Program Files\Git\cmd\git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\cmd\git.exe config remote.origin.url https://github.com/vitalliuss/helloci # timeout=10
+Fetching upstream changes from https://github.com/vitalliuss/helloci
+ > C:\Program Files\Git\cmd\git.exe --version # timeout=10
+ > C:\Program Files\Git\cmd\git.exe fetch --tags --force --progress -- https://github.com/vitalliuss/helloci +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\cmd\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > C:\Program Files\Git\cmd\git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 446ae5a4fb9798821be65628da0b587e4e1f04e3 (refs/remotes/origin/master)
+ > C:\Program Files\Git\cmd\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\cmd\git.exe checkout -f 446ae5a4fb9798821be65628da0b587e4e1f04e3 # timeout=10
+Commit message: "mention cobertura issue in README"
+ > C:\Program Files\Git\cmd\git.exe rev-list --no-walk 446ae5a4fb9798821be65628da0b587e4e1f04e3 # timeout=10
+Активирую [8mha:////4NeYoWPG1S++9bmhRB07zi/QlqG/L9pZi6QLal1i2F/vAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgYx/az8JH23zKLiEi8gIyU1LbE0p0QfAIc1/HXLAAAA[0mFirstJob » default
+[8mha:////4NeYoWPG1S++9bmhRB07zi/QlqG/L9pZi6QLal1i2F/vAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgYx/az8JH23zKLiEi8gIyU1LbE0p0QfAIc1/HXLAAAA[0mFirstJob » default completed with result FAILURE
+Finished: FAILURE
